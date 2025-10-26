@@ -34,5 +34,4 @@ Quickstart (local without Docker)
 Notes
 -----
 - The app uses SQLAlchemy sync models and Base.metadata.create_all on startup as a dev fallback.
-- Alembic migration in this scaffold creates schema ideabridge; real production migrations should be authored as needed.
 
