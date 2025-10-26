@@ -1,5 +1,5 @@
 
-IdeaBridge - FastAPI backend scaffold (MVP)
+IdeaBridge - FastAPI backend
 =========================================
 
 Contents:
@@ -17,8 +17,6 @@ Quickstart (Docker)
    docker-compose up --build
 
 - Postgres will be available on port 5432 (host), Adminer on 8080, backend on 8000.
-- To run migrations with Alembic (optional):
-   alembic -c alembic.ini upgrade head
 
 Quickstart (local without Docker)
 --------------------------------
