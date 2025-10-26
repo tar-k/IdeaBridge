@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# === Virtual Environment ===
+venv/
+.env
+.env.local
+.env.*.local
+
+# === IDE / Editors ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# === Logs / temp ===
+logs/
+*.log
+tmp/
+.cache/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Docker
+pgdata/
+*.pid
+
+# Кэш pytest, mypy и т.д.
+.mypy_cache/
+.pytest_cache/
+.cache/
