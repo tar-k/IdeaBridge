@@ -4,8 +4,6 @@ IdeaBridge - FastAPI backend scaffold (MVP)
 
 Contents:
 - app/ (FastAPI app, models, crud, schemas)
-- alembic/ (migration env)
-- alembic.ini
 - requirements.txt
 - docker-compose.yml
 - Dockerfile
@@ -30,7 +28,7 @@ Quickstart (local without Docker)
    pip install -r requirements.txt
 
 2. Set DATABASE_URL env var, e.g.:
-   export DATABASE_URL=postgresql://postgres:yourpass@localhost:5432/IdeaBridge
+   export DATABASE_URL=postgresql://postgres:yourpass@localhost:5432/your_db_name
 
 3. Start backend:
    uvicorn app.main:app --reload
